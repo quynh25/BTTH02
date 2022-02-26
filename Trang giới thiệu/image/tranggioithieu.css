@@ -1,0 +1,19 @@
+#container{
+	width:1200px;
+	margin:0 auto;
+}
+nav1{
+	width:670px;
+    height: auto;
+	max-height:auto;
+	background-color: white;
+	float:left;
+}
+nav2{
+	width:400px;
+	height: auto;
+	max-height:auto;
+	background-color: white;
+	margin:0px;
+	float:right;
+}
