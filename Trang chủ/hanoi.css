@@ -1,0 +1,324 @@
+body{
+    font-family: Arial, Helvetica, sans-serif ;
+    
+}
+
+
+.narbar{
+    padding: 0;
+}
+.nav-link{
+    color: black !important ;
+    text-transform: uppercase;
+    font-family: 'Archivo', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+ul.navbar-nav li a:hover{
+    color:#0B249E !important;
+}
+.navbar-light .navbar-nav .nav-link.active {
+    color:#0B249E !important;
+}
+
+/*  */
+
+.dropdown-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  /*  */
+ a {
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+} 
+
+/* mui ten */
+.dropdown-item-nh::after {
+    display: inline-block;
+    margin-left: 0.5em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+
+.dropdown-item-nh{
+    position: relative;;
+}
+ol, ul {
+	list-style: none;
+}
+
+
+.sub-menu{
+    display: none;
+    position: absolute;
+    left: 100%;
+    background-color: white;
+    min-width: 250px;
+    top : 72%;
+    padding: 10px;
+
+} 
+
+.sub-menu-1st:hover .sub-menu{
+    display: block;
+}
+
+
+
+/*  */
+
+.container-fluid{
+    padding: 0;
+}
+#intro{
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+#intro{
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+}
+.intro-row{
+    width: 70%;
+}
+
+.intro-row h3{
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro-row h4{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro-col{
+    display: flex;
+    justify-content: space-around;
+
+}
+.intro-col .intro-card{
+    width: 30%;
+    padding: 18px;
+    border: 1px solid #e1e0e0;
+}
+.intro-col  img{
+    width: 100%;
+    height: 230px;
+}
+
+.intro-col .intro-card p{
+    text-align: justify;
+    margin-top: 20px;
+    line-height: 23px;
+}
+
+/* đky */
+
+.container-1{
+    background-image: url("");
+    background-color: rgb(38, 38, 92);
+  
+    
+}
+
+.container-1 .header{
+    /* border: 2px solid #ffeb3b; */
+    border-radius: 0px 3px 0px 0px;
+    
+}
+.list-item{
+    font-size: 30px;
+    list-style: none;
+}
+.list{
+    justify-content: space-between;
+    padding-right: 20%;
+}
+.box-img{
+    margin-left: 400px;
+}
+.list_item-p{
+    border-left: 5px solid #FFBC08;
+    padding-left: 15px;
+}
+.container-1 .header h5{
+    color: white;
+    padding: 5px 10px 5px 10px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    /* align-items: center; */
+    /* border-style: solid; */
+     
+}
+.header .text-warning{
+    margin-left: 145px;
+    margin-right: 120px;
+    border-style: solid;
+    border: 2px 2px 2px 2px;
+    padding: 2% 5% 2% 5%;
+    align-items: center;
+    
+}
+
+.container-1 .content{
+
+    border-radius: 0px 0px 3px 3px;
+}
+
+.container-1 .content .detail{
+
+    margin: 1rem auto auto 3rem;
+}
+
+.container-1 .content .detail label{
+    font-size: small; 
+    margin: 10px auto 5px auto;  
+    color: rgb(129, 129, 129);
+}
+
+.container-1 .content .detail label code{
+    color: rgb(248, 7, 7);
+}
+
+
+
+.container-1 .content .detail .select select{
+    width:1rem;
+    height: 1.5rem;
+}
+
+.container-1 .content .detail .button a {
+    text-decoration: none;
+}
+
+.container-1 .content .detail .button .save{
+    margin: 5px 0px 0px 0px;
+    padding: 5px 5px;
+    background-color: #28A642;
+    color: white;
+    font-weight: 300;
+    border-radius: 2px;
+}
+
+.container-1 .content .detail .button .delete{
+    margin: 5px 0px 0px 5px;
+    padding: 5px 7px;
+    background-color: #FFBC08;
+    border-radius: 2px;
+    font-weight: 300;
+}
+
+.space{
+    height: 10px;
+}
+
+.container-1 h3{
+    color: white;
+    padding: 10px  5px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; */
+    background-color: rgb(38, 38, 92);
+    text-transform: uppercase;
+    font-size: 28px;
+    padding-left: 61px;
+}
+
+
+.abc.btn{
+    color: white;
+    background-color: #0B249E;
+    text-align: center;
+  
+}
+
+
+
+
+
+
+
+
+
+
+/* Tập đoàn aptech */
+.container-2{
+    background-color: white;
+  
+    color: black;
+}
+
+.row h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    line-height: 54px;
+    color: #0B249E;
+    background-color:white;
+    padding-left: 130px;
+    text-decoration:  none solid rgb(11, 36, 158);
+}
+.row h3{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 36px;
+    color: #000;
+    padding-left: 120px;
+    background-color: white;
+    text-decoration:  none solid rgb(0, 0, 0);
+}
+.row h4{
+    font-size: 21px;
+    color: #433F3F;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 31.5px;
+    text-align: center;
+    text-decoration:  none solid rgb(67, 63, 63);
+    padding-right: 120px;
+}
+
+.col-7 button{
+    margin: 0px 250px 0px 270px;
+}
+.btn{
+    color: white;
+    background-color: green;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+
+.col-5{
+
+    border-style: solid;
+    border-width: 0px 3px 0px 0px;
+    border-color: orange;
+    transition: border 0.3s;
+    border-radius: 0.3s;
+    box-shadow:0.3s;
+}
