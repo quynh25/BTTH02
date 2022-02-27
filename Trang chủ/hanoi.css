@@ -1,3 +1,13 @@
+
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+img{
+    max-width: 100%;
+}
 body{
     font-family: Arial, Helvetica, sans-serif ;
    
@@ -390,10 +400,21 @@ ol, ul {
     
 }
 
+
+.hk  .icon-holder{
+    width: 75%;
+    border-radius: 50%;
+    border : white solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .container-3 .col-6 .hk .icon i{
     color: white;
-    font-size: 75px;
-    margin: 20px;
+    font-size: 68px;
+    margin: 5px;
+   
 }
 
 
@@ -441,6 +462,12 @@ ol, ul {
     background-color: white;
     margin: 0 auto 20px ;
 }
+
+
+.lydo .boxcontainer .item{
+    width: 40%;
+}
+
 .lydo .boxcontainer .item img{
     width: 80px;
     height: 80px;
@@ -448,6 +475,7 @@ ol, ul {
     margin-left: 10px;
     /* display: flex; */
 }
+
 .lydo .boxcontainer .so1{
     display: flex;
     border:1px solid #fff;
@@ -477,6 +505,12 @@ ol, ul {
     text-align: center;
     margin: 30px 100px 30px 100px;
    
+}
+
+.the-1 button{
+    height: 60px !important;
+    width: 200px !important;
+    border: white solid 1px;
 }
 
 /* thư mục */
@@ -534,19 +568,20 @@ ol, ul {
 .container4{
     padding: 50px;
     color: white;
-    width: 1476px;
-    height: 600px;
+    /* width: 100%;
+    height: 100%; */
     background-color: #0b249e;
     font-size: 19px;
     font-family: inherit;
     font-weight: bold;
+    
 }
 
-.laptrinh{
+.lt{
     color: white;
     text-decoration: none;
 }
-.laptrinh:hover{
+.lt:hover{
     color: white;
 }
 .container4 .row{
@@ -585,11 +620,3 @@ input[type='text']{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
-/* .container4 .form-group{
-    width: 100%;
-    padding: 2px;
-    margin: 5px 0 22px 0;
-    display: inline;
-    border: none;
-    background: whitesmoke;
-} */
